@@ -1,15 +1,13 @@
 import os
 import base64
 import cv2
+from langchain_classic.agents import Agent
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain.tools import tool
 from langgraph.prebuilt import create_react_agent
+from langchain.agents import create_agent
 from langgraph.checkpoint.memory import MemorySaver
-
-# 设置 API 密钥
-os.environ["OPENAI_API_KEY"] = "sk-yuknxsbirvgfjucumekpjaytgbgsvgvgdyztihhcqmtwlafu"
-os.environ["OPENAI_API_BASE"] = "https://api.siliconflow.cn/v1"
 
 def encode_image(image_path):
     """将图片转换为 base64 字符串"""
@@ -17,13 +15,14 @@ def encode_image(image_path):
         return base64.b64encode(image_file.read()).decode('utf-8')
 
 @tool
-def analyze_video_at_second(second: float, query: str):
+def analyze_video_at_second(second: float, query: str, model: Agent):
     """
     读取视频并在指定秒数截取一帧，然后根据问题描述画面内容。
     当用户询问视频某时刻的画面时，必须调用此工具。
     参数:
     - second: 视频的秒数 (例如 29.0)
     - query: 关于画面的问题 (例如 "画面里有什么？")
+    - model: 自己使用多模态来分析图片
     """
     # 假设视频路径固定
     video_path = os.path.join(os.path.dirname(__file__), "test_videos", "Truman.MP4")
@@ -50,8 +49,6 @@ def analyze_video_at_second(second: float, query: str):
 
     # 使用 VLM 模型分析图片
     try:
-        # 这里我们在工具内部调用另一个 VLM 模型 (Qwen2-VL)
-        vlm = ChatOpenAI(model="Qwen/Qwen2-VL-72B-Instruct", temperature=0.1)
         base64_image = encode_image(output_path)
 
         msg = HumanMessage(content=[
@@ -60,7 +57,7 @@ def analyze_video_at_second(second: float, query: str):
         ])
 
         # 调用 VLM 生成描述
-        response = vlm.invoke([msg])
+        response = model.invoke([msg])
         return f"Frame at {second}s analysis: {response.content}"
     except Exception as e:
         return f"Error analyzing image: {str(e)}"
@@ -76,18 +73,18 @@ def main():
     # 3. 创建 ReAct Agent (使用 LangGraph)
     memory = MemorySaver()
     # 注意：不同版本的 langgraph 参数可能不同，这里使用最通用的方式，将 system prompt 放入 input messages
-    agent = create_react_agent(
+    agent = create_agent(
         model=main_llm,
         tools=tools,
         checkpointer=memory
     )
 
     # 4. 用户提问
-    question = "视频第29秒展示了什么画面？"
+    question = input("请以类似格式提问：视频第29秒展示了什么画面？\n")
     print(f"用户提问: {question}")
 
     # 将 System Prompt 作为第一条消息传入
-    system_prompt = "你是一个视频助手。当用户问及视频某秒的内容时，请使用 analyze_video_at_second 工具来查看并回答。"
+    system_prompt = "你是一个视频助手。当用户问及视频某秒的内容时，请使用 analyze_video_at_second 工具来查看并回答。其中 model 参数为你自己"
     inputs = {"messages": [SystemMessage(content=system_prompt), HumanMessage(content=question)]}
 
     config = {"configurable": {"thread_id": "demo_thread_3"}}

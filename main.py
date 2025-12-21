@@ -1,11 +1,4 @@
-import os
-
 from langchain_core.prompts import ChatPromptTemplate
-
-# 设置 API 密钥
-os.environ["OPENAI_API_KEY"] = "sk-yuknxsbirvgfjucumekpjaytgbgsvgvgdyztihhcqmtwlafu"
-os.environ["OPENAI_API_BASE"] = "https://api.siliconflow.cn/v1"
-os.environ["TAVILY_API_KEY"] = "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"
 
 # 导入 langchain 相关包
 from langchain_openai import ChatOpenAI
