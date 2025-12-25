@@ -20,8 +20,8 @@ from langgraph.checkpoint.memory import MemorySaver
 from scenedetect import detect, ContentDetector
 
 # ============ 环境配置 ============
-os.environ["OPENAI_API_KEY"] = "sk-yuknxsbirvgfjucumekpjaytgbgsvgvgdyztihhcqmtwlafu"
-os.environ["OPENAI_API_BASE"] = "https://api.siliconflow.cn/v1"
+# os.environ["OPENAI_API_KEY"] = "your_api_key_here"
+# os.environ["OPENAI_API_BASE"] = "your_api_base_here"
 
 # Agent主模型（支持 function call 的文本模型）
 AGENT_MODEL = "Qwen/Qwen3-32B"
@@ -455,7 +455,7 @@ def moment_retrieval_with_timeline(query: str, timeline: str) -> str:
     return result
 
 
-# ============ 原有工具保留 ============
+# ============ milestone1 工具 ============
 @tool
 def get_second(user_query: str) -> float:
     """
@@ -570,7 +570,7 @@ def analyze_frame(image_path: str, question: str = "请详细描述这张图片�
 def create_video_qa_agent():
     """创建视频问答Agent，包含所有视频分析工具"""
     tools = [
-        # 原有工具
+        # milestone1 工具
         get_second, 
         get_frame_at_second, 
         analyze_frame,

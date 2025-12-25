@@ -15,8 +15,8 @@ from langchain.agents import create_agent
 from langgraph.checkpoint.memory import MemorySaver
 
 # ============ 环境配置 ============
-os.environ["OPENAI_API_KEY"] = "sk-yuknxsbirvgfjucumekpjaytgbgsvgvgdyztihhcqmtwlafu"
-os.environ["OPENAI_API_BASE"] = "https://api.siliconflow.cn/v1"
+# os.environ["OPENAI_API_KEY"] = "your_api_key_here"
+# os.environ["OPENAI_API_BASE"] = "your_api_base_here"
 
 # Agent主模型（支持 function call 的文本模型）
 AGENT_MODEL = "Qwen/Qwen3-32B"
