@@ -1,0 +1,507 @@
+{
+  "timestamp": "2025-12-25T22:13:36.525158",
+  "method": "multiple_choice",
+  "samples_per_class": 3,
+  "num_frames": 5,
+  "vl_model": "Qwen/Qwen2.5-VL-32B-Instruct",
+  "judge_model": null,
+  "accuracy": {
+    "ucf101": {
+      "correct": 30,
+      "total": 30,
+      "accuracy": 100.0
+    },
+    "hmdb51": {
+      "correct": 29,
+      "total": 30,
+      "accuracy": 96.66666666666667
+    },
+    "overall": {
+      "correct": 59,
+      "total": 60,
+      "accuracy": 98.33333333333333
+    }
+  },
+  "detailed_results": [
+    {
+      "video_path": "datasets/UCF101/UCF-101\\RockClimbingIndoor\\v_RockClimbingIndoor_g18_c04.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Rock Climbing / Climbing",
+      "predicted": "Rock Climbing / Climbing",
+      "correct": true,
+      "raw_response": "A"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\RockClimbingIndoor\\v_RockClimbingIndoor_g13_c03.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Rock Climbing / Climbing",
+      "predicted": "Rock Climbing / Climbing",
+      "correct": true,
+      "raw_response": "A"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\RockClimbingIndoor\\v_RockClimbingIndoor_g11_c02.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Rock Climbing / Climbing",
+      "predicted": "Rock Climbing / Climbing",
+      "correct": true,
+      "raw_response": "A"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\climb\\Sarah_und_die_Kletterwand_climb_f_cm_np1_ri_bad_1.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Rock Climbing / Climbing",
+      "predicted": "Rock Climbing / Climbing",
+      "correct": true,
+      "raw_response": "A"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\climb\\Kletter-WM_2005-_Bouldern_Finale_Herren__Serik_Kazbekov_climb_f_cm_np1_ba_med_0.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Rock Climbing / Climbing",
+      "predicted": "Rock Climbing / Climbing",
+      "correct": true,
+      "raw_response": "A"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\climb\\Kletter-WM_2005-_Bouldern_Finale_Damen__Vera_Kotasova_(CZE)_climb_f_cm_np1_ba_med_0.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Rock Climbing / Climbing",
+      "predicted": "Rock Climbing / Climbing",
+      "correct": true,
+      "raw_response": "A"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\Fencing\\v_Fencing_g15_c01.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Fencing",
+      "predicted": "Fencing",
+      "correct": true,
+      "raw_response": "B"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\Fencing\\v_Fencing_g09_c02.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Fencing",
+      "predicted": "Fencing",
+      "correct": true,
+      "raw_response": "B"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\Fencing\\v_Fencing_g16_c03.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Fencing",
+      "predicted": "Fencing",
+      "correct": true,
+      "raw_response": "B"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\fencing\\Swordplay_Alliance_Rapier_and_Dagger_fight_fencing_f_cm_np2_ri_bad_1.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Fencing",
+      "predicted": "Fencing",
+      "correct": true,
+      "raw_response": "B"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\fencing\\Swordplay_Alliance_Rapier_and_Dagger_fight_fencing_f_cm_np2_le_bad_0.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Fencing",
+      "predicted": "Fencing",
+      "correct": true,
+      "raw_response": "B"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\fencing\\Rapier_Fencing_gone_bad_fencing_f_cm_np2_ri_bad_0.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Fencing",
+      "predicted": "Fencing",
+      "correct": true,
+      "raw_response": "B"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\GolfSwing\\v_GolfSwing_g05_c04.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Golf Swing",
+      "predicted": "Golf Swing",
+      "correct": true,
+      "raw_response": "C"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\GolfSwing\\v_GolfSwing_g16_c02.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Golf Swing",
+      "predicted": "Golf Swing",
+      "correct": true,
+      "raw_response": "C"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\GolfSwing\\v_GolfSwing_g14_c01.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Golf Swing",
+      "predicted": "Golf Swing",
+      "correct": true,
+      "raw_response": "C"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\golf\\Cobra_Golf_-_Camilo_Villegas_golf_f_cm_np1_ri_goo_1.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Golf Swing",
+      "predicted": "Golf Swing",
+      "correct": true,
+      "raw_response": "C"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\golf\\Michelle_Wie__Golf_Swing_golf_f_cm_np1_fr_med_0.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Golf Swing",
+      "predicted": "Golf Swing",
+      "correct": true,
+      "raw_response": "C"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\golf\\Natalie_Gulbis_1_golf_f_cm_np1_le_med_1.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Golf Swing",
+      "predicted": "Golf Swing",
+      "correct": true,
+      "raw_response": "C"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\SoccerPenalty\\v_SoccerPenalty_g06_c04.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Soccer Penalty / Kicking Ball",
+      "predicted": "Soccer Penalty / Kicking Ball",
+      "correct": true,
+      "raw_response": "D"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\SoccerPenalty\\v_SoccerPenalty_g04_c05.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Soccer Penalty / Kicking Ball",
+      "predicted": "Soccer Penalty / Kicking Ball",
+      "correct": true,
+      "raw_response": "D"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\SoccerPenalty\\v_SoccerPenalty_g24_c05.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Soccer Penalty / Kicking Ball",
+      "predicted": "Soccer Penalty / Kicking Ball",
+      "correct": true,
+      "raw_response": "D"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\kick_ball\\LONGESTYARD_kick_ball_f_cm_np1_le_bad_9.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Soccer Penalty / Kicking Ball",
+      "predicted": "Soccer Penalty / Kicking Ball",
+      "correct": true,
+      "raw_response": "D"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\kick_ball\\Dhan_Dhana_Dhan_Goal_(2007)_w__Eng_Sub_-_Watch_Online_-_4_16_kick_ball_f_cm_np1_ri_goo_2.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Soccer Penalty / Kicking Ball",
+      "predicted": "Soccer Penalty / Kicking Ball",
+      "correct": true,
+      "raw_response": "D"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\kick_ball\\FOOT_2009_(REMI_GAILLARD)_kick_ball_f_cm_np1_fr_bad_0.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Soccer Penalty / Kicking Ball",
+      "predicted": "Soccer Penalty / Kicking Ball",
+      "correct": true,
+      "raw_response": "D"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\PullUps\\v_PullUps_g24_c02.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Pull-ups",
+      "predicted": "Pull-ups",
+      "correct": true,
+      "raw_response": "E"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\PullUps\\v_PullUps_g17_c03.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Pull-ups",
+      "predicted": "Pull-ups",
+      "correct": true,
+      "raw_response": "E"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\PullUps\\v_PullUps_g11_c04.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Pull-ups",
+      "predicted": "Pull-ups",
+      "correct": true,
+      "raw_response": "E"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\pullup\\20_good_form_pullups_pullup_f_nm_np1_ri_goo_0.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Pull-ups",
+      "predicted": "Pull-ups",
+      "correct": true,
+      "raw_response": "E"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\pullup\\100_pullups_pullup_u_nm_np1_fr_med_0.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Pull-ups",
+      "predicted": "Pull-ups",
+      "correct": true,
+      "raw_response": "E"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\pullup\\50_pull_ups_made_in_germany_pullup_f_nm_np1_le_med_1.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Pull-ups",
+      "predicted": "Pull-ups",
+      "correct": true,
+      "raw_response": "E"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\Punch\\v_Punch_g18_c03.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Punching",
+      "predicted": "Punching",
+      "correct": true,
+      "raw_response": "F"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\Punch\\v_Punch_g25_c07.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Punching",
+      "predicted": "Punching",
+      "correct": true,
+      "raw_response": "F"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\Punch\\v_Punch_g20_c04.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Punching",
+      "predicted": "Punching",
+      "correct": true,
+      "raw_response": "F"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\punch\\The_Matrix_Revolutions_6_punch_u_nm_np2_ri_med_1.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Punching",
+      "predicted": "Punching",
+      "correct": true,
+      "raw_response": "F"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\punch\\The_Matrix_5_punch_u_nm_np1_ba_med_20.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Punching",
+      "predicted": "Punching",
+      "correct": true,
+      "raw_response": "F"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\punch\\RETURN_OF_THE_KING_punch_u_cm_np1_ri_med_34.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Punching",
+      "predicted": "Rock Climbing / Climbing",
+      "correct": false,
+      "raw_response": "A"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\PushUps\\v_PushUps_g25_c04.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Push-ups",
+      "predicted": "Push-ups",
+      "correct": true,
+      "raw_response": "G"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\PushUps\\v_PushUps_g04_c05.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Push-ups",
+      "predicted": "Push-ups",
+      "correct": true,
+      "raw_response": "G"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\PushUps\\v_PushUps_g21_c01.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Push-ups",
+      "predicted": "Push-ups",
+      "correct": true,
+      "raw_response": "G"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\pushup\\Chest_Muscle_Group_(for_sexy_arms__shoulders__back_and_abs!)_pushup_u_nm_np1_ri_goo_3.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Push-ups",
+      "predicted": "Push-ups",
+      "correct": true,
+      "raw_response": "G"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\pushup\\Pushups_Workout__Push_Up_protein__Part_One_pushup_f_cm_np1_ri_bad_1.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Push-ups",
+      "predicted": "Push-ups",
+      "correct": true,
+      "raw_response": "G"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\pushup\\Pushups_Workout__Push_Up_protein__Part_One_pushup_f_cm_np1_ri_bad_0.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Push-ups",
+      "predicted": "Push-ups",
+      "correct": true,
+      "raw_response": "G"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\Biking\\v_Biking_g21_c03.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Biking / Riding Bike",
+      "predicted": "Biking / Riding Bike",
+      "correct": true,
+      "raw_response": "H"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\Biking\\v_Biking_g06_c05.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Biking / Riding Bike",
+      "predicted": "Biking / Riding Bike",
+      "correct": true,
+      "raw_response": "H"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\Biking\\v_Biking_g09_c03.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Biking / Riding Bike",
+      "predicted": "Biking / Riding Bike",
+      "correct": true,
+      "raw_response": "H"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\ride_bike\\Fahrrad_ride_bike_f_cm_np1_le_med_0.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Biking / Riding Bike",
+      "predicted": "Biking / Riding Bike",
+      "correct": true,
+      "raw_response": "H"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\ride_bike\\Yorki_Kassy_beim_Fahrrad_fahren_ride_bike_f_cm_np1_fr_med_3.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Biking / Riding Bike",
+      "predicted": "Biking / Riding Bike",
+      "correct": true,
+      "raw_response": "H"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\ride_bike\\Tour_de_France_2009_ETAPA_16_ESPN_ESP__Kilometros_finales_ride_bike_f_cm_np1_fr_med_4.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Biking / Riding Bike",
+      "predicted": "Biking / Riding Bike",
+      "correct": true,
+      "raw_response": "H"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\HorseRiding\\v_HorseRiding_g11_c05.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Horse Riding",
+      "predicted": "Horse Riding",
+      "correct": true,
+      "raw_response": "I"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\HorseRiding\\v_HorseRiding_g04_c06.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Horse Riding",
+      "predicted": "Horse Riding",
+      "correct": true,
+      "raw_response": "I"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\HorseRiding\\v_HorseRiding_g09_c04.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Horse Riding",
+      "predicted": "Horse Riding",
+      "correct": true,
+      "raw_response": "I"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\ride_horse\\CrossCountry_ride_horse_l_cm_np1_ri_med_7.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Horse Riding",
+      "predicted": "Horse Riding",
+      "correct": true,
+      "raw_response": "I"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\ride_horse\\Mylifehorseriding_ride_horse_f_cm_np1_ba_med_2.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Horse Riding",
+      "predicted": "Horse Riding",
+      "correct": true,
+      "raw_response": "I"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\ride_horse\\Return_of_the_King_2_ride_horse_f_cm_np1_ba_bad_8.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Horse Riding",
+      "predicted": "Horse Riding",
+      "correct": true,
+      "raw_response": "I"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\Basketball\\v_Basketball_g03_c06.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Basketball / Shooting Ball",
+      "predicted": "Basketball / Shooting Ball",
+      "correct": true,
+      "raw_response": "J"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\Basketball\\v_Basketball_g08_c03.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Basketball / Shooting Ball",
+      "predicted": "Basketball / Shooting Ball",
+      "correct": true,
+      "raw_response": "J"
+    },
+    {
+      "video_path": "datasets/UCF101/UCF-101\\Basketball\\v_Basketball_g05_c03.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Basketball / Shooting Ball",
+      "predicted": "Basketball / Shooting Ball",
+      "correct": true,
+      "raw_response": "J"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\shoot_ball\\ReggieMillerTakesonThreeAverageGuysinaShootout_shoot_ball_u_nm_np1_ba_med_10.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Basketball / Shooting Ball",
+      "predicted": "Basketball / Shooting Ball",
+      "correct": true,
+      "raw_response": "J"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\shoot_ball\\Clay_sBasketballSkillz_shoot_ball_f_nm_np1_ba_med_6.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Basketball / Shooting Ball",
+      "predicted": "Basketball / Shooting Ball",
+      "correct": true,
+      "raw_response": "J"
+    },
+    {
+      "video_path": "datasets/hmdb51_org\\shoot_ball\\ReggieMillerTakesonThreeAverageGuysinaShootout_shoot_ball_u_nm_np1_ba_med_8.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Basketball / Shooting Ball",
+      "predicted": "Basketball / Shooting Ball",
+      "correct": true,
+      "raw_response": "J"
+    }
+  ]
+}

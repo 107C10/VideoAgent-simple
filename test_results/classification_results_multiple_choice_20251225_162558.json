@@ -1,0 +1,187 @@
+{
+  "timestamp": "2025-12-25T16:25:58.879371",
+  "method": "multiple_choice",
+  "samples_per_class": 1,
+  "num_frames": 5,
+  "vl_model": "Qwen/Qwen2.5-VL-32B-Instruct",
+  "judge_model": null,
+  "accuracy": {
+    "ucf101": {
+      "correct": 10,
+      "total": 10,
+      "accuracy": 100.0
+    },
+    "hmdb51": {
+      "correct": 9,
+      "total": 10,
+      "accuracy": 90.0
+    },
+    "overall": {
+      "correct": 19,
+      "total": 20,
+      "accuracy": 95.0
+    }
+  },
+  "detailed_results": [
+    {
+      "video_path": "UCF101/UCF-101\\RockClimbingIndoor\\v_RockClimbingIndoor_g06_c02.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Rock Climbing / Climbing",
+      "predicted": "Rock Climbing / Climbing",
+      "correct": true,
+      "raw_response": "A"
+    },
+    {
+      "video_path": "hmdb51_org\\climb\\(HQ)_Rock_Climbing_-_Free_Solo_Speed_Climb_-_Dan_Osman_climb_f_cm_np1_le_med_1.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Rock Climbing / Climbing",
+      "predicted": "Rock Climbing / Climbing",
+      "correct": true,
+      "raw_response": "A"
+    },
+    {
+      "video_path": "UCF101/UCF-101\\Fencing\\v_Fencing_g21_c04.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Fencing",
+      "predicted": "Fencing",
+      "correct": true,
+      "raw_response": "B"
+    },
+    {
+      "video_path": "hmdb51_org\\fencing\\Great_Movie_Lessons_-_The_First_Zorro_-_Mask_of_Zorro_fencing_u_cm_np2_le_goo_1.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Fencing",
+      "predicted": "Fencing",
+      "correct": true,
+      "raw_response": "B"
+    },
+    {
+      "video_path": "UCF101/UCF-101\\GolfSwing\\v_GolfSwing_g12_c03.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Golf Swing",
+      "predicted": "Golf Swing",
+      "correct": true,
+      "raw_response": "C"
+    },
+    {
+      "video_path": "hmdb51_org\\golf\\Evian_Masters_Junior_Cup_Highlights_2009_golf_f_nm_np1_ri_goo_3.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Golf Swing",
+      "predicted": "Golf Swing",
+      "correct": true,
+      "raw_response": "C"
+    },
+    {
+      "video_path": "UCF101/UCF-101\\SoccerPenalty\\v_SoccerPenalty_g07_c01.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Soccer Penalty / Kicking Ball",
+      "predicted": "Soccer Penalty / Kicking Ball",
+      "correct": true,
+      "raw_response": "D"
+    },
+    {
+      "video_path": "hmdb51_org\\kick_ball\\Das_Wunder_von_Bern_(Deutschland_2002_2003)_kick_ball_f_cm_np1_ri_goo_3.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Soccer Penalty / Kicking Ball",
+      "predicted": "Punching",
+      "correct": false,
+      "raw_response": "F"
+    },
+    {
+      "video_path": "UCF101/UCF-101\\PullUps\\v_PullUps_g22_c03.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Pull-ups",
+      "predicted": "Pull-ups",
+      "correct": true,
+      "raw_response": "E"
+    },
+    {
+      "video_path": "hmdb51_org\\pullup\\Random_Pull_Up_Exercises_pullup_f_nm_np1_ba_med_0.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Pull-ups",
+      "predicted": "Pull-ups",
+      "correct": true,
+      "raw_response": "E"
+    },
+    {
+      "video_path": "UCF101/UCF-101\\Punch\\v_Punch_g23_c01.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Punching",
+      "predicted": "Punching",
+      "correct": true,
+      "raw_response": "F"
+    },
+    {
+      "video_path": "hmdb51_org\\punch\\AdvancedBoxingTechniquesandExercises_punch_u_nm_np1_le_med_3.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Punching",
+      "predicted": "Punching",
+      "correct": true,
+      "raw_response": "F"
+    },
+    {
+      "video_path": "UCF101/UCF-101\\PushUps\\v_PushUps_g19_c02.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Push-ups",
+      "predicted": "Push-ups",
+      "correct": true,
+      "raw_response": "G"
+    },
+    {
+      "video_path": "hmdb51_org\\pushup\\Luke_s_Push_Up_Challenge_pushup_f_cm_np1_fr_goo_2.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Push-ups",
+      "predicted": "Push-ups",
+      "correct": true,
+      "raw_response": "G"
+    },
+    {
+      "video_path": "UCF101/UCF-101\\Biking\\v_Biking_g02_c05.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Biking / Riding Bike",
+      "predicted": "Biking / Riding Bike",
+      "correct": true,
+      "raw_response": "H"
+    },
+    {
+      "video_path": "hmdb51_org\\ride_bike\\#437_How_To_Ride_A_Bike_ride_bike_f_cm_np1_fr_med_2.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Biking / Riding Bike",
+      "predicted": "Biking / Riding Bike",
+      "correct": true,
+      "raw_response": "H"
+    },
+    {
+      "video_path": "UCF101/UCF-101\\HorseRiding\\v_HorseRiding_g04_c03.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Horse Riding",
+      "predicted": "Horse Riding",
+      "correct": true,
+      "raw_response": "I"
+    },
+    {
+      "video_path": "hmdb51_org\\ride_horse\\Caspar_ride_horse_f_cm_np1_ri_med_1.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Horse Riding",
+      "predicted": "Horse Riding",
+      "correct": true,
+      "raw_response": "I"
+    },
+    {
+      "video_path": "UCF101/UCF-101\\Basketball\\v_Basketball_g13_c01.avi",
+      "dataset": "UCF101",
+      "ground_truth": "Basketball / Shooting Ball",
+      "predicted": "Basketball / Shooting Ball",
+      "correct": true,
+      "raw_response": "J"
+    },
+    {
+      "video_path": "hmdb51_org\\shoot_ball\\WeTheKingsplaying_shoot_ball_u_cm_np1_ba_med_7.avi",
+      "dataset": "HMDB51",
+      "ground_truth": "Basketball / Shooting Ball",
+      "predicted": "Basketball / Shooting Ball",
+      "correct": true,
+      "raw_response": "J"
+    }
+  ]
+}

@@ -1,0 +1,2271 @@
+{
+  "timestamp": "2025-12-25T17:29:54.814556",
+  "config": {
+    "vl_model": "Qwen/Qwen2.5-VL-32B-Instruct",
+    "num_frames": 5,
+    "use_llm_parser": true,
+    "total_samples": 150,
+    "tested_samples": 150
+  },
+  "metrics": {
+    "mean_iou": 0.2828604016225104,
+    "R@0.3": 42.0,
+    "R@0.5": 24.0,
+    "R@0.7": 6.666666666666667
+  },
+  "parse_methods": {
+    "regex": 150
+  },
+  "detailed_results": [
+    {
+      "video_id": "3MSZA",
+      "description": "person turn a light on.",
+      "gt_range": [
+        24.3,
+        30.4
+      ],
+      "pred_range": [
+        0,
+        6.2
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.2]"
+    },
+    {
+      "video_id": "AMT7R",
+      "description": "a person is putting a picture onto the wall.",
+      "gt_range": [
+        4.3,
+        12.5
+      ],
+      "pred_range": [
+        1.0,
+        6.0
+      ],
+      "iou": 0.14782608695652175,
+      "parse_method": "regex",
+      "raw_response": "[1.0, 6.0]"
+    },
+    {
+      "video_id": "YVKIV",
+      "description": "the person puts down the bag.",
+      "gt_range": [
+        4.4,
+        9.2
+      ],
+      "pred_range": [
+        0,
+        6.4
+      ],
+      "iou": 0.2173913043478261,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.4]"
+    },
+    {
+      "video_id": "VXJS4",
+      "description": "a person walks through the doorway.",
+      "gt_range": [
+        0.0,
+        3.4
+      ],
+      "pred_range": [
+        0,
+        6.1
+      ],
+      "iou": 0.5573770491803279,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.1]"
+    },
+    {
+      "video_id": "GBD1Y",
+      "description": "person closes the door.",
+      "gt_range": [
+        26.2,
+        31.3
+      ],
+      "pred_range": [
+        26.3,
+        32.9
+      ],
+      "iou": 0.746268656716418,
+      "parse_method": "regex",
+      "raw_response": "[26.3, 32.9]"
+    },
+    {
+      "video_id": "KVXJ9",
+      "description": "person runs up the stairs.",
+      "gt_range": [
+        1.0,
+        11.0
+      ],
+      "pred_range": [
+        0,
+        6.2
+      ],
+      "iou": 0.4727272727272727,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.2]"
+    },
+    {
+      "video_id": "E6DLK",
+      "description": "person runs to the window to look out.",
+      "gt_range": [
+        9.3,
+        14.4
+      ],
+      "pred_range": [
+        13.65,
+        18.15
+      ],
+      "iou": 0.08474576271186443,
+      "parse_method": "regex",
+      "raw_response": "[13.65, 18.15]"
+    },
+    {
+      "video_id": "AKO6M",
+      "description": "a person stands in the bathroom holding a glass.",
+      "gt_range": [
+        0.0,
+        8.8
+      ],
+      "pred_range": [
+        0,
+        18.6
+      ],
+      "iou": 0.4731182795698925,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 18.6]"
+    },
+    {
+      "video_id": "F7TG5",
+      "description": "person sits in a chair.",
+      "gt_range": [
+        13.2,
+        20.8
+      ],
+      "pred_range": [
+        12.6,
+        21.1
+      ],
+      "iou": 0.8941176470588237,
+      "parse_method": "regex",
+      "raw_response": "[12.6, 21.1]"
+    },
+    {
+      "video_id": "KOVTR",
+      "description": "person they stand up.",
+      "gt_range": [
+        10.2,
+        19.8
+      ],
+      "pred_range": [
+        6.0,
+        10.6
+      ],
+      "iou": 0.028985507246376836,
+      "parse_method": "regex",
+      "raw_response": "[6.0, 10.6]"
+    },
+    {
+      "video_id": "FPJ9D",
+      "description": "person sit on a chair.",
+      "gt_range": [
+        25.8,
+        34.0
+      ],
+      "pred_range": [
+        20.0,
+        33.4
+      ],
+      "iou": 0.5428571428571427,
+      "parse_method": "regex",
+      "raw_response": "[20.0, 33.4]"
+    },
+    {
+      "video_id": "5NV2Z",
+      "description": "person takes a cup off a desk.",
+      "gt_range": [
+        5.1,
+        10.2
+      ],
+      "pred_range": [
+        0,
+        4.5
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 4.5]"
+    },
+    {
+      "video_id": "Y1HGC",
+      "description": "a person walks in a doorway drinking some coffee.",
+      "gt_range": [
+        0.2,
+        9.8
+      ],
+      "pred_range": [
+        0,
+        6.1
+      ],
+      "iou": 0.6020408163265305,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.1]"
+    },
+    {
+      "video_id": "9JZO2",
+      "description": "person put on their shoes.",
+      "gt_range": [
+        26.1,
+        36.0
+      ],
+      "pred_range": [
+        14.3,
+        21.5
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[14.3, 21.5]"
+    },
+    {
+      "video_id": "4J1AP",
+      "description": "person drinking a glass of water.",
+      "gt_range": [
+        13.1,
+        21.5
+      ],
+      "pred_range": [
+        12.36,
+        16.48
+      ],
+      "iou": 0.3698030634573305,
+      "parse_method": "regex",
+      "raw_response": "[12.36, 16.48]"
+    },
+    {
+      "video_id": "V1WN7",
+      "description": "person sitting on bed.",
+      "gt_range": [
+        0.0,
+        15.9
+      ],
+      "pred_range": [
+        0,
+        5.2
+      ],
+      "iou": 0.3270440251572327,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 5.2]"
+    },
+    {
+      "video_id": "BL7OF",
+      "description": "a person throws a pair of shoes under the window.",
+      "gt_range": [
+        1.0,
+        5.0
+      ],
+      "pred_range": [
+        0,
+        3.6
+      ],
+      "iou": 0.52,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 3.6]"
+    },
+    {
+      "video_id": "5C4EK",
+      "description": "a person reads a book.",
+      "gt_range": [
+        0.0,
+        6.2
+      ],
+      "pred_range": [
+        3.1,
+        12.4
+      ],
+      "iou": 0.25,
+      "parse_method": "regex",
+      "raw_response": "[3.1, 12.4]"
+    },
+    {
+      "video_id": "S591U",
+      "description": "person sitting on top of bed closes laptop.",
+      "gt_range": [
+        9.4,
+        17.0
+      ],
+      "pred_range": [
+        18.0,
+        24.0
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[18.0, 24.0]"
+    },
+    {
+      "video_id": "DLFPX",
+      "description": "a person is standing on their stairs holding a bag.",
+      "gt_range": [
+        0.0,
+        7.7
+      ],
+      "pred_range": [
+        0,
+        5.3
+      ],
+      "iou": 0.6883116883116883,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 5.3]"
+    },
+    {
+      "video_id": "9HG4Z",
+      "description": "a person is closing a door.",
+      "gt_range": [
+        0.0,
+        7.7
+      ],
+      "pred_range": [
+        0,
+        2.4
+      ],
+      "iou": 0.3116883116883117,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 2.4]"
+    },
+    {
+      "video_id": "I7AS7",
+      "description": "a person runs through a doorway.",
+      "gt_range": [
+        0.0,
+        5.1
+      ],
+      "pred_range": [
+        0,
+        0
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 0.0]"
+    },
+    {
+      "video_id": "J48N6",
+      "description": "the same person was laughing as he was undressing.",
+      "gt_range": [
+        18.4,
+        32.0
+      ],
+      "pred_range": [
+        15.35,
+        24.55
+      ],
+      "iou": 0.3693693693693694,
+      "parse_method": "regex",
+      "raw_response": "[15.35, 24.55]"
+    },
+    {
+      "video_id": "JVLAZ",
+      "description": "person laying on the bed sneezing.",
+      "gt_range": [
+        9.3,
+        18.0
+      ],
+      "pred_range": [
+        0,
+        12.6
+      ],
+      "iou": 0.18333333333333326,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 12.6]"
+    },
+    {
+      "video_id": "2RFLZ",
+      "description": "a person picks up their phone talks on it.",
+      "gt_range": [
+        3.0,
+        10.4
+      ],
+      "pred_range": [
+        2.9,
+        5.8
+      ],
+      "iou": 0.37333333333333324,
+      "parse_method": "regex",
+      "raw_response": "[2.9, 5.8]"
+    },
+    {
+      "video_id": "N3U9S",
+      "description": "person opens a cabinet door twice.",
+      "gt_range": [
+        0.0,
+        4.8
+      ],
+      "pred_range": [
+        0,
+        3.0
+      ],
+      "iou": 0.625,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 3.0]"
+    },
+    {
+      "video_id": "J9T5D",
+      "description": "person start laughing.",
+      "gt_range": [
+        27.1,
+        35.0
+      ],
+      "pred_range": [
+        0,
+        34.068377095475576
+      ],
+      "iou": 0.19909648844215927,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 34.1]"
+    },
+    {
+      "video_id": "1CYLM",
+      "description": "a person sits down on a couch.",
+      "gt_range": [
+        0.0,
+        14.2
+      ],
+      "pred_range": [
+        0,
+        6.7
+      ],
+      "iou": 0.471830985915493,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.7]"
+    },
+    {
+      "video_id": "V2GC9",
+      "description": "person putting groceries away.",
+      "gt_range": [
+        10.1,
+        24.2
+      ],
+      "pred_range": [
+        10.2,
+        30.6
+      ],
+      "iou": 0.6829268292682927,
+      "parse_method": "regex",
+      "raw_response": "[10.2, 30.6]"
+    },
+    {
+      "video_id": "LGJAR",
+      "description": "person turns on the light.",
+      "gt_range": [
+        17.6,
+        25.2
+      ],
+      "pred_range": [
+        6.46,
+        12.92
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[6.46, 12.92]"
+    },
+    {
+      "video_id": "ZHRPD",
+      "description": "the person puts the towel onto the shelf.",
+      "gt_range": [
+        11.8,
+        19.6
+      ],
+      "pred_range": [
+        4.96,
+        9.96
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[4.96, 9.96]"
+    },
+    {
+      "video_id": "43CCM",
+      "description": "person undressing by the shelf beside the doorway.",
+      "gt_range": [
+        7.7,
+        22.0
+      ],
+      "pred_range": [
+        6.1,
+        12.2
+      ],
+      "iou": 0.2830188679245283,
+      "parse_method": "regex",
+      "raw_response": "[6.1, 12.2]"
+    },
+    {
+      "video_id": "YZ8HK",
+      "description": "the person closes the laptop.",
+      "gt_range": [
+        1.4,
+        8.7
+      ],
+      "pred_range": [
+        1.8,
+        5.2
+      ],
+      "iou": 0.4657534246575344,
+      "parse_method": "regex",
+      "raw_response": "[1.8, 5.2]"
+    },
+    {
+      "video_id": "2P7A9",
+      "description": "person take a picture from the top of a cabinet.",
+      "gt_range": [
+        20.4,
+        27.6
+      ],
+      "pred_range": [
+        1.6,
+        5.4
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[1.6, 5.4]"
+    },
+    {
+      "video_id": "1ZWPP",
+      "description": "a person is smiling in the mirror of their bathroom.",
+      "gt_range": [
+        2.6,
+        7.7
+      ],
+      "pred_range": [
+        0,
+        4.7
+      ],
+      "iou": 0.2727272727272727,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 4.7]"
+    },
+    {
+      "video_id": "QUXYH",
+      "description": "person laughs in the kitchen.",
+      "gt_range": [
+        0.0,
+        10.9
+      ],
+      "pred_range": [
+        0,
+        6.1
+      ],
+      "iou": 0.5596330275229358,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.1]"
+    },
+    {
+      "video_id": "V3SOF",
+      "description": "person opened up the refrigerator.",
+      "gt_range": [
+        20.0,
+        28.2
+      ],
+      "pred_range": [
+        1.1,
+        4.4
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[1.1, 4.4]"
+    },
+    {
+      "video_id": "SY5QP",
+      "description": "a person is standing in the room holding a sandwich.",
+      "gt_range": [
+        0.0,
+        14.0
+      ],
+      "pred_range": [
+        23.8,
+        30.7
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[23.8, 30.7]"
+    },
+    {
+      "video_id": "AOK1L",
+      "description": "person drinking from a cup.",
+      "gt_range": [
+        30.5,
+        36.0
+      ],
+      "pred_range": [
+        17.6,
+        26.4
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[17.6, 26.4]"
+    },
+    {
+      "video_id": "NBSPH",
+      "description": "person sits on the table.",
+      "gt_range": [
+        26.8,
+        32.0
+      ],
+      "pred_range": [
+        0,
+        30.766666666666666
+      ],
+      "iou": 0.12395833333333328,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 30.8]"
+    },
+    {
+      "video_id": "HY4FS",
+      "description": "person the open the cabinet.",
+      "gt_range": [
+        4.9,
+        11.6
+      ],
+      "pred_range": [
+        13.7,
+        17.2
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[13.7, 17.2]"
+    },
+    {
+      "video_id": "YSE1G",
+      "description": "person closed the door.",
+      "gt_range": [
+        0.6,
+        8.9
+      ],
+      "pred_range": [
+        0,
+        5.7
+      ],
+      "iou": 0.5730337078651687,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 5.7]"
+    },
+    {
+      "video_id": "XMYXI",
+      "description": "a person sits in a chair.",
+      "gt_range": [
+        0.0,
+        7.0
+      ],
+      "pred_range": [
+        0,
+        3.0
+      ],
+      "iou": 0.42857142857142855,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 3.0]"
+    },
+    {
+      "video_id": "QLEN3",
+      "description": "person open the closet.",
+      "gt_range": [
+        14.0,
+        19.0
+      ],
+      "pred_range": [
+        0,
+        7.0
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 7.0]"
+    },
+    {
+      "video_id": "YSKX3",
+      "description": "person throws pillow on it.",
+      "gt_range": [
+        13.0,
+        18.0
+      ],
+      "pred_range": [
+        10.0,
+        13.3
+      ],
+      "iou": 0.03750000000000009,
+      "parse_method": "regex",
+      "raw_response": "[10.0, 13.3]"
+    },
+    {
+      "video_id": "HBWLV",
+      "description": "person puts the shoes on the floor.",
+      "gt_range": [
+        9.4,
+        14.3
+      ],
+      "pred_range": [
+        12.6,
+        16.0
+      ],
+      "iou": 0.25757575757575774,
+      "parse_method": "regex",
+      "raw_response": "[12.6, 16.0]"
+    },
+    {
+      "video_id": "XE19C",
+      "description": "person puts a cup in the sink.",
+      "gt_range": [
+        0.9,
+        8.5
+      ],
+      "pred_range": [
+        12.2,
+        15.2
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[12.2, 15.2]"
+    },
+    {
+      "video_id": "W3SC3",
+      "description": "the person immediately opened a window.",
+      "gt_range": [
+        8.0,
+        15.2
+      ],
+      "pred_range": [
+        0,
+        4.4
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 4.4]"
+    },
+    {
+      "video_id": "WKPQ3",
+      "description": "person they talk on the phone.",
+      "gt_range": [
+        15.8,
+        28.7
+      ],
+      "pred_range": [
+        0,
+        32.1
+      ],
+      "iou": 0.4018691588785046,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 32.1]"
+    },
+    {
+      "video_id": "FXZI5",
+      "description": "a person is dressing in a towel.",
+      "gt_range": [
+        3.0,
+        12.4
+      ],
+      "pred_range": [
+        0,
+        6.5
+      ],
+      "iou": 0.282258064516129,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.5]"
+    },
+    {
+      "video_id": "OE2M1",
+      "description": "another person comes in takes the box away.",
+      "gt_range": [
+        12.9,
+        19.3
+      ],
+      "pred_range": [
+        12.2,
+        24.4
+      ],
+      "iou": 0.5245901639344263,
+      "parse_method": "regex",
+      "raw_response": "[12.2, 24.4]"
+    },
+    {
+      "video_id": "ZF7YA",
+      "description": "the person sits on a pillow on the floor.",
+      "gt_range": [
+        5.3,
+        11.7
+      ],
+      "pred_range": [
+        0,
+        37.2
+      ],
+      "iou": 0.17204301075268816,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 37.2]"
+    },
+    {
+      "video_id": "B82GJ",
+      "description": "the person takes a paper towel from the table.",
+      "gt_range": [
+        17.7,
+        22.5
+      ],
+      "pred_range": [
+        14.7,
+        19.6
+      ],
+      "iou": 0.24358974358974383,
+      "parse_method": "regex",
+      "raw_response": "[14.7, 19.6]"
+    },
+    {
+      "video_id": "FYYFX",
+      "description": "person opens a window.",
+      "gt_range": [
+        2.0,
+        11.2
+      ],
+      "pred_range": [
+        0,
+        10.3
+      ],
+      "iou": 0.7410714285714287,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 10.3]"
+    },
+    {
+      "video_id": "Q7IQI",
+      "description": "person looks at some books open it.",
+      "gt_range": [
+        0.0,
+        4.5
+      ],
+      "pred_range": [
+        0,
+        17.2
+      ],
+      "iou": 0.2616279069767442,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 17.2]"
+    },
+    {
+      "video_id": "HSEH1",
+      "description": "person is fixing a light bulb.",
+      "gt_range": [
+        10.0,
+        22.6
+      ],
+      "pred_range": [
+        0,
+        10.4
+      ],
+      "iou": 0.0176991150442478,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 10.4]"
+    },
+    {
+      "video_id": "6ZWSU",
+      "description": "person puts the books down.",
+      "gt_range": [
+        1.4,
+        7.2
+      ],
+      "pred_range": [
+        0,
+        6.1
+      ],
+      "iou": 0.6527777777777776,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.1]"
+    },
+    {
+      "video_id": "V0ZD9",
+      "description": "person washes a cup.",
+      "gt_range": [
+        0.5,
+        16.0
+      ],
+      "pred_range": [
+        0,
+        11.3
+      ],
+      "iou": 0.675,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 11.3]"
+    },
+    {
+      "video_id": "AK2KG",
+      "description": "person opens up the window.",
+      "gt_range": [
+        12.5,
+        19.0
+      ],
+      "pred_range": [
+        10.5,
+        14.5
+      ],
+      "iou": 0.23529411764705882,
+      "parse_method": "regex",
+      "raw_response": "[10.5, 14.5]"
+    },
+    {
+      "video_id": "8MQH6",
+      "description": "a person opens a closet door.",
+      "gt_range": [
+        0.0,
+        8.1
+      ],
+      "pred_range": [
+        6.6,
+        13.2
+      ],
+      "iou": 0.11363636363636365,
+      "parse_method": "regex",
+      "raw_response": "[6.6, 13.2]"
+    },
+    {
+      "video_id": "MAUMO",
+      "description": "person takes a drink from a glass.",
+      "gt_range": [
+        0.0,
+        9.6
+      ],
+      "pred_range": [
+        0,
+        6.7
+      ],
+      "iou": 0.6979166666666666,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.7]"
+    },
+    {
+      "video_id": "EHS68",
+      "description": "another person is throwing a pair of shoes.",
+      "gt_range": [
+        1.1,
+        6.4
+      ],
+      "pred_range": [
+        0,
+        2.0
+      ],
+      "iou": 0.14062499999999997,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 2.0]"
+    },
+    {
+      "video_id": "G30NS",
+      "description": "person puts it into a box.",
+      "gt_range": [
+        2.5,
+        10.6
+      ],
+      "pred_range": [
+        22.5,
+        30.0
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[22.5, 30.0]"
+    },
+    {
+      "video_id": "SUJWY",
+      "description": "the person laughs at something on the screen multiple times.",
+      "gt_range": [
+        17.1,
+        29.7
+      ],
+      "pred_range": [
+        16.3,
+        24.4
+      ],
+      "iou": 0.5447761194029849,
+      "parse_method": "regex",
+      "raw_response": "[16.3, 24.4]"
+    },
+    {
+      "video_id": "KERO6",
+      "description": "the person puts some food onto a pan.",
+      "gt_range": [
+        11.4,
+        16.9
+      ],
+      "pred_range": [
+        10.0,
+        15.0
+      ],
+      "iou": 0.5217391304347827,
+      "parse_method": "regex",
+      "raw_response": "[10.0, 15.0]"
+    },
+    {
+      "video_id": "SV6KF",
+      "description": "a person throws a broom at the stairs.",
+      "gt_range": [
+        9.3,
+        14.5
+      ],
+      "pred_range": [
+        10.0,
+        14.5
+      ],
+      "iou": 0.8653846153846155,
+      "parse_method": "regex",
+      "raw_response": "[10.0, 14.5]"
+    },
+    {
+      "video_id": "VCYH8",
+      "description": "person turns off the light as they're leaving.",
+      "gt_range": [
+        18.2,
+        23.8
+      ],
+      "pred_range": [
+        0,
+        5.5
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 5.5]"
+    },
+    {
+      "video_id": "G852Y",
+      "description": "one person is wrapped in a blanket sneezing.",
+      "gt_range": [
+        3.0,
+        10.1
+      ],
+      "pred_range": [
+        0,
+        18.08676841725754
+      ],
+      "iou": 0.3925521594684386,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 18.1]"
+    },
+    {
+      "video_id": "OKXIQ",
+      "description": "person they use the doorknob to open the cabinet.",
+      "gt_range": [
+        0.0,
+        5.7
+      ],
+      "pred_range": [
+        0,
+        1.6
+      ],
+      "iou": 0.2807017543859649,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 1.6]"
+    },
+    {
+      "video_id": "KB7WQ",
+      "description": "person they close the box.",
+      "gt_range": [
+        7.3,
+        14.0
+      ],
+      "pred_range": [
+        0,
+        5.6
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 5.6]"
+    },
+    {
+      "video_id": "27DCQ",
+      "description": "a person awakens in bed.",
+      "gt_range": [
+        13.5,
+        19.2
+      ],
+      "pred_range": [
+        0,
+        6.2
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.2]"
+    },
+    {
+      "video_id": "UM5II",
+      "description": "the person eats a few bite.",
+      "gt_range": [
+        3.7,
+        14.0
+      ],
+      "pred_range": [
+        6.7,
+        13.5
+      ],
+      "iou": 0.6601941747572815,
+      "parse_method": "regex",
+      "raw_response": "[6.7, 13.5]"
+    },
+    {
+      "video_id": "XT9D4",
+      "description": "a person is putting food into the refrigerator.",
+      "gt_range": [
+        18.3,
+        25.3
+      ],
+      "pred_range": [
+        0,
+        1.8
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 1.8]"
+    },
+    {
+      "video_id": "1W6YY",
+      "description": "person closes the cabinet door.",
+      "gt_range": [
+        3.5,
+        7.9
+      ],
+      "pred_range": [
+        0,
+        5.9
+      ],
+      "iou": 0.3037974683544304,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 5.9]"
+    },
+    {
+      "video_id": "YOCRB",
+      "description": "person sit down in a chair.",
+      "gt_range": [
+        26.4,
+        36.0
+      ],
+      "pred_range": [
+        13.8,
+        17.7
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[13.8, 17.7]"
+    },
+    {
+      "video_id": "ZDV60",
+      "description": "a person opens a closet door.",
+      "gt_range": [
+        0.3,
+        9.2
+      ],
+      "pred_range": [
+        0,
+        6.2
+      ],
+      "iou": 0.6413043478260871,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.2]"
+    },
+    {
+      "video_id": "GHC5X",
+      "description": "a person takes a glass of water.",
+      "gt_range": [
+        22.2,
+        27.8
+      ],
+      "pred_range": [
+        0,
+        0
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 0.0]"
+    },
+    {
+      "video_id": "6IOV0",
+      "description": "person working on a laptop.",
+      "gt_range": [
+        0.0,
+        13.1
+      ],
+      "pred_range": [
+        0,
+        15.2
+      ],
+      "iou": 0.861842105263158,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 15.2]"
+    },
+    {
+      "video_id": "OP2SS",
+      "description": "the person takes out their laptop.",
+      "gt_range": [
+        20.4,
+        26.7
+      ],
+      "pred_range": [
+        12.7,
+        16.4
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[12.7, 16.4]"
+    },
+    {
+      "video_id": "PPY0W",
+      "description": "a person is holding a bag.",
+      "gt_range": [
+        0.0,
+        7.8
+      ],
+      "pred_range": [
+        0,
+        32.3
+      ],
+      "iou": 0.24148606811145512,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 32.3]"
+    },
+    {
+      "video_id": "DCV2M",
+      "description": "person start undressing.",
+      "gt_range": [
+        25.4,
+        32.0
+      ],
+      "pred_range": [
+        12.7,
+        16.4
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[12.7, 16.4]"
+    },
+    {
+      "video_id": "TEV5K",
+      "description": "person begings to drink a glass of water.",
+      "gt_range": [
+        7.1,
+        16.2
+      ],
+      "pred_range": [
+        15.4,
+        18.5
+      ],
+      "iou": 0.07017543859649113,
+      "parse_method": "regex",
+      "raw_response": "[15.4, 18.5]"
+    },
+    {
+      "video_id": "Q3BCC",
+      "description": "a person closes a door.",
+      "gt_range": [
+        0.0,
+        6.8
+      ],
+      "pred_range": [
+        0,
+        10.5
+      ],
+      "iou": 0.6476190476190476,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 10.5]"
+    },
+    {
+      "video_id": "M8OYC",
+      "description": "a person walks in holding a bag of groceries.",
+      "gt_range": [
+        1.7,
+        11.5
+      ],
+      "pred_range": [
+        0,
+        10.0
+      ],
+      "iou": 0.7217391304347827,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 10.0]"
+    },
+    {
+      "video_id": "FBOF0",
+      "description": "a person awakens in bed.",
+      "gt_range": [
+        9.2,
+        22.2
+      ],
+      "pred_range": [
+        0,
+        13.3
+      ],
+      "iou": 0.18468468468468474,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 13.3]"
+    },
+    {
+      "video_id": "D1NT7",
+      "description": "a person is putting some dishes into a box.",
+      "gt_range": [
+        10.8,
+        18.6
+      ],
+      "pred_range": [
+        1.0,
+        10.0
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[1.0, 10.0]"
+    },
+    {
+      "video_id": "3UACJ",
+      "description": "person takes a drink from a glass.",
+      "gt_range": [
+        1.8,
+        6.4
+      ],
+      "pred_range": [
+        15.2,
+        22.8
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[15.2, 22.8]"
+    },
+    {
+      "video_id": "U2AO1",
+      "description": "closes the doors.the person takes the food.",
+      "gt_range": [
+        0.0,
+        4.6
+      ],
+      "pred_range": [
+        10.9,
+        13.2
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[10.9, 13.2]"
+    },
+    {
+      "video_id": "3J9L5",
+      "description": "a person is eating.",
+      "gt_range": [
+        1.0,
+        6.6
+      ],
+      "pred_range": [
+        0,
+        29.8
+      ],
+      "iou": 0.18791946308724833,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 29.8]"
+    },
+    {
+      "video_id": "XQVXF",
+      "description": "person opens a fridge door.",
+      "gt_range": [
+        4.5,
+        11.1
+      ],
+      "pred_range": [
+        0,
+        5.5
+      ],
+      "iou": 0.0900900900900901,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 5.5]"
+    },
+    {
+      "video_id": "9LWQ6",
+      "description": "a person undresses.",
+      "gt_range": [
+        0.0,
+        9.7
+      ],
+      "pred_range": [
+        0,
+        4.5
+      ],
+      "iou": 0.4639175257731959,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 4.5]"
+    },
+    {
+      "video_id": "2ADJI",
+      "description": "person putting away groceries.",
+      "gt_range": [
+        10.0,
+        21.9
+      ],
+      "pred_range": [
+        0,
+        4.9
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 4.9]"
+    },
+    {
+      "video_id": "B1AMA",
+      "description": "person dresses in pajamas.",
+      "gt_range": [
+        21.0,
+        35.7
+      ],
+      "pred_range": [
+        0,
+        37.45408333333333
+      ],
+      "iou": 0.39248057065429015,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 37.5]"
+    },
+    {
+      "video_id": "LA6AA",
+      "description": "a person was holding a blanket.",
+      "gt_range": [
+        2.2,
+        11.8
+      ],
+      "pred_range": [
+        0,
+        5.6
+      ],
+      "iou": 0.28813559322033894,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 5.6]"
+    },
+    {
+      "video_id": "YNWMW",
+      "description": "the person takes a broom.",
+      "gt_range": [
+        9.9,
+        15.9
+      ],
+      "pred_range": [
+        5.5,
+        8.1
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[5.5, 8.1]"
+    },
+    {
+      "video_id": "LUTIO",
+      "description": "the person lays on the floor the gets up.",
+      "gt_range": [
+        0.0,
+        10.4
+      ],
+      "pred_range": [
+        0,
+        6.1
+      ],
+      "iou": 0.5865384615384615,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.1]"
+    },
+    {
+      "video_id": "Q6290",
+      "description": "person watching the television eating an apple.",
+      "gt_range": [
+        0.0,
+        8.3
+      ],
+      "pred_range": [
+        0,
+        17.1
+      ],
+      "iou": 0.48538011695906436,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 17.1]"
+    },
+    {
+      "video_id": "TAQ25",
+      "description": "the person closes the laptop.",
+      "gt_range": [
+        11.6,
+        17.7
+      ],
+      "pred_range": [
+        16.8,
+        22.4
+      ],
+      "iou": 0.0833333333333332,
+      "parse_method": "regex",
+      "raw_response": "[16.8, 22.4]"
+    },
+    {
+      "video_id": "EEVD3",
+      "description": "person begins to eat it.",
+      "gt_range": [
+        18.4,
+        32.0
+      ],
+      "pred_range": [
+        12.4,
+        15.5
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[12.4, 15.5]"
+    },
+    {
+      "video_id": "IOGR7",
+      "description": "person they stand up.",
+      "gt_range": [
+        19.7,
+        28.3
+      ],
+      "pred_range": [
+        12.16,
+        18.24
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[12.16, 18.24]"
+    },
+    {
+      "video_id": "2OREK",
+      "description": "looking out the window in a curious manner.",
+      "gt_range": [
+        11.5,
+        17.6
+      ],
+      "pred_range": [
+        0,
+        1.8
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 1.8]"
+    },
+    {
+      "video_id": "JCT0K",
+      "description": "a person is opening the closet door.",
+      "gt_range": [
+        2.6,
+        10.2
+      ],
+      "pred_range": [
+        0,
+        5.9
+      ],
+      "iou": 0.32352941176470595,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 5.9]"
+    },
+    {
+      "video_id": "H0P5D",
+      "description": "one person was running into the table.",
+      "gt_range": [
+        11.0,
+        18.1
+      ],
+      "pred_range": [
+        15.35,
+        21.45
+      ],
+      "iou": 0.2631578947368423,
+      "parse_method": "regex",
+      "raw_response": "[15.35, 21.45]"
+    },
+    {
+      "video_id": "BFCU9",
+      "description": "person eating it.",
+      "gt_range": [
+        0.2,
+        5.3
+      ],
+      "pred_range": [
+        10.5,
+        15.75
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[10.5, 15.75]"
+    },
+    {
+      "video_id": "TUD6M",
+      "description": "person throws their blanket inside.",
+      "gt_range": [
+        4.3,
+        8.0
+      ],
+      "pred_range": [
+        4.56,
+        7.553670818976941
+      ],
+      "iou": 0.8091002213451192,
+      "parse_method": "regex",
+      "raw_response": "[4.56, 7.6]"
+    },
+    {
+      "video_id": "A3XXB",
+      "description": "person puts them away on a shelf in a closet.",
+      "gt_range": [
+        1.9,
+        7.1
+      ],
+      "pred_range": [
+        2.2,
+        5.6
+      ],
+      "iou": 0.653846153846154,
+      "parse_method": "regex",
+      "raw_response": "[2.2, 5.6]"
+    },
+    {
+      "video_id": "L5YHH",
+      "description": "a person is turns on the light in their closet.",
+      "gt_range": [
+        0.6,
+        5.7
+      ],
+      "pred_range": [
+        0,
+        7.3
+      ],
+      "iou": 0.6986301369863015,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 7.3]"
+    },
+    {
+      "video_id": "GL2JW",
+      "description": "person closes a cupboard door.",
+      "gt_range": [
+        14.9,
+        21.9
+      ],
+      "pred_range": [
+        15.2,
+        18.2
+      ],
+      "iou": 0.42857142857142866,
+      "parse_method": "regex",
+      "raw_response": "[15.2, 18.2]"
+    },
+    {
+      "video_id": "FAJEA",
+      "description": "person they take some medicine.",
+      "gt_range": [
+        14.3,
+        23.5
+      ],
+      "pred_range": [
+        15.0,
+        21.1
+      ],
+      "iou": 0.6630434782608697,
+      "parse_method": "regex",
+      "raw_response": "[15.0, 21.1]"
+    },
+    {
+      "video_id": "RXELU",
+      "description": "person turns the light on.",
+      "gt_range": [
+        2.5,
+        6.6
+      ],
+      "pred_range": [
+        0,
+        3.0
+      ],
+      "iou": 0.07575757575757576,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 3.0]"
+    },
+    {
+      "video_id": "QCVZN",
+      "description": "a person takes a book off a shelf.",
+      "gt_range": [
+        6.2,
+        12.0
+      ],
+      "pred_range": [
+        3.8,
+        7.6
+      ],
+      "iou": 0.17073170731707313,
+      "parse_method": "regex",
+      "raw_response": "[3.8, 7.6]"
+    },
+    {
+      "video_id": "5B9XE",
+      "description": "person turns off the ceiling light.",
+      "gt_range": [
+        18.7,
+        29.0
+      ],
+      "pred_range": [
+        4.8,
+        8.0
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[4.8, 8.0]"
+    },
+    {
+      "video_id": "LKNZD",
+      "description": "a person is throwing clothes on the floor.",
+      "gt_range": [
+        0.0,
+        6.5
+      ],
+      "pred_range": [
+        0,
+        33.19983333333333
+      ],
+      "iou": 0.19578411538210536,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 33.2]"
+    },
+    {
+      "video_id": "0DVVD",
+      "description": "a person closes a window.",
+      "gt_range": [
+        2.8,
+        14.3
+      ],
+      "pred_range": [
+        0,
+        5.9
+      ],
+      "iou": 0.21678321678321685,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 5.9]"
+    },
+    {
+      "video_id": "U8M2P",
+      "description": "another person is sneezing on a sandwich.",
+      "gt_range": [
+        1.6,
+        13.3
+      ],
+      "pred_range": [
+        16.4,
+        26.0
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[16.4, 26.0]"
+    },
+    {
+      "video_id": "VAV4C",
+      "description": "person eating a sandwich.",
+      "gt_range": [
+        13.8,
+        23.5
+      ],
+      "pred_range": [
+        0,
+        9.4
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 9.4]"
+    },
+    {
+      "video_id": "6C0BK",
+      "description": "a person is putting a towel on a towel rack.",
+      "gt_range": [
+        0.3,
+        7.8
+      ],
+      "pred_range": [
+        0,
+        0
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 0.0]"
+    },
+    {
+      "video_id": "5CN21",
+      "description": "a person is standing in their garage holding a pillow.",
+      "gt_range": [
+        11.6,
+        17.5
+      ],
+      "pred_range": [
+        0,
+        25.3
+      ],
+      "iou": 0.23320158102766797,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 25.3]"
+    },
+    {
+      "video_id": "OTIA2",
+      "description": "person turns on a lightswitch.",
+      "gt_range": [
+        0.0,
+        4.4
+      ],
+      "pred_range": [
+        0,
+        3.7
+      ],
+      "iou": 0.8409090909090907,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 3.7]"
+    },
+    {
+      "video_id": "B4ED1",
+      "description": "a person is pouring water into a cup.",
+      "gt_range": [
+        23.5,
+        32.8
+      ],
+      "pred_range": [
+        0,
+        6.8
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.8]"
+    },
+    {
+      "video_id": "86E2E",
+      "description": "the person is sitting on the floor.",
+      "gt_range": [
+        0.0,
+        8.8
+      ],
+      "pred_range": [
+        0,
+        19.889436365821417
+      ],
+      "iou": 0.44244592145015105,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 19.9]"
+    },
+    {
+      "video_id": "YJ1KW",
+      "description": "person sits down in a chair.",
+      "gt_range": [
+        8.8,
+        14.3
+      ],
+      "pred_range": [
+        6.28,
+        12.56
+      ],
+      "iou": 0.4688279301745635,
+      "parse_method": "regex",
+      "raw_response": "[6.28, 12.56]"
+    },
+    {
+      "video_id": "DJ87X",
+      "description": "a person is looking out the window.",
+      "gt_range": [
+        0.0,
+        9.6
+      ],
+      "pred_range": [
+        0,
+        3.5
+      ],
+      "iou": 0.36458333333333337,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 3.5]"
+    },
+    {
+      "video_id": "N0ZPI",
+      "description": "person take a drink from the cup.",
+      "gt_range": [
+        14.4,
+        20.8
+      ],
+      "pred_range": [
+        0,
+        6.0
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.0]"
+    },
+    {
+      "video_id": "OVD84",
+      "description": "a person turns on some lights.",
+      "gt_range": [
+        4.1,
+        10.8
+      ],
+      "pred_range": [
+        0,
+        6.1
+      ],
+      "iou": 0.18518518518518517,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.1]"
+    },
+    {
+      "video_id": "NW0KT",
+      "description": "person takes book out.",
+      "gt_range": [
+        7.9,
+        18.8
+      ],
+      "pred_range": [
+        0,
+        10.0
+      ],
+      "iou": 0.11170212765957446,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 10.0]"
+    },
+    {
+      "video_id": "8SDK5",
+      "description": "person sits down in a chair.",
+      "gt_range": [
+        15.4,
+        23.0
+      ],
+      "pred_range": [
+        13.0,
+        17.2
+      ],
+      "iou": 0.17999999999999988,
+      "parse_method": "regex",
+      "raw_response": "[13.0, 17.2]"
+    },
+    {
+      "video_id": "95GB4",
+      "description": "person takes a picture with a camera.",
+      "gt_range": [
+        8.8,
+        19.8
+      ],
+      "pred_range": [
+        0,
+        6.0
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.0]"
+    },
+    {
+      "video_id": "TDAY1",
+      "description": "person working on a laptop.",
+      "gt_range": [
+        0.0,
+        16.6
+      ],
+      "pred_range": [
+        0,
+        34.3
+      ],
+      "iou": 0.48396501457725954,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 34.3]"
+    },
+    {
+      "video_id": "NRGQB",
+      "description": "person throws their shoes off by kicking them.",
+      "gt_range": [
+        6.1,
+        11.6
+      ],
+      "pred_range": [
+        0,
+        2.4
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 2.4]"
+    },
+    {
+      "video_id": "5R8BL",
+      "description": "person begin undressing.",
+      "gt_range": [
+        12.1,
+        22.0
+      ],
+      "pred_range": [
+        0,
+        21.2
+      ],
+      "iou": 0.41363636363636364,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 21.2]"
+    },
+    {
+      "video_id": "BI4KK",
+      "description": "person drinking from a glass of water.",
+      "gt_range": [
+        0.9,
+        8.4
+      ],
+      "pred_range": [
+        1.6,
+        5.4
+      ],
+      "iou": 0.5066666666666667,
+      "parse_method": "regex",
+      "raw_response": "[1.6, 5.4]"
+    },
+    {
+      "video_id": "DU416",
+      "description": "person holding a bag.",
+      "gt_range": [
+        7.9,
+        18.0
+      ],
+      "pred_range": [
+        0,
+        30.6
+      ],
+      "iou": 0.3300653594771242,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 30.6]"
+    },
+    {
+      "video_id": "NO1GJ",
+      "description": "person washes clothes.",
+      "gt_range": [
+        15.9,
+        25.8
+      ],
+      "pred_range": [
+        0,
+        25.3
+      ],
+      "iou": 0.3643410852713178,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 25.3]"
+    },
+    {
+      "video_id": "7SNIO",
+      "description": "one person runs into the room laughing.",
+      "gt_range": [
+        0.0,
+        7.3
+      ],
+      "pred_range": [
+        0,
+        6.9
+      ],
+      "iou": 0.945205479452055,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.9]"
+    },
+    {
+      "video_id": "QOYH2",
+      "description": "person takes a drink from a cup.",
+      "gt_range": [
+        17.5,
+        25.3
+      ],
+      "pred_range": [
+        12.3,
+        16.4
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[12.3, 16.4]"
+    },
+    {
+      "video_id": "QWKVM",
+      "description": "person closes the door.",
+      "gt_range": [
+        10.3,
+        19.1
+      ],
+      "pred_range": [
+        1.6,
+        6.2
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[1.6, 6.2]"
+    },
+    {
+      "video_id": "COBS0",
+      "description": "a smiling person takes a towel.",
+      "gt_range": [
+        6.7,
+        14.0
+      ],
+      "pred_range": [
+        0,
+        6.2
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.2]"
+    },
+    {
+      "video_id": "TJZ0P",
+      "description": "the person is seated in a chair.",
+      "gt_range": [
+        10.2,
+        19.0
+      ],
+      "pred_range": [
+        0,
+        17.7
+      ],
+      "iou": 0.39473684210526316,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 17.7]"
+    },
+    {
+      "video_id": "759MY",
+      "description": "person put something on the table.",
+      "gt_range": [
+        7.5,
+        13.0
+      ],
+      "pred_range": [
+        12.1,
+        16.2
+      ],
+      "iou": 0.10344827586206902,
+      "parse_method": "regex",
+      "raw_response": "[12.1, 16.2]"
+    },
+    {
+      "video_id": "F1V30",
+      "description": "a person holding a towel walks up to a counter.",
+      "gt_range": [
+        0.0,
+        4.2
+      ],
+      "pred_range": [
+        0,
+        6.4
+      ],
+      "iou": 0.6562499999999999,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.4]"
+    },
+    {
+      "video_id": "U502L",
+      "description": "a person awakens in their bathroom holding their phone.",
+      "gt_range": [
+        20.4,
+        26.9
+      ],
+      "pred_range": [
+        0,
+        1.8
+      ],
+      "iou": 0.0,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 1.8]"
+    },
+    {
+      "video_id": "OPPVW",
+      "description": "person laugh about it.",
+      "gt_range": [
+        19.2,
+        25.0
+      ],
+      "pred_range": [
+        19.52,
+        24.396106237231102
+      ],
+      "iou": 0.8407079719363969,
+      "parse_method": "regex",
+      "raw_response": "[19.52, 24.4]"
+    },
+    {
+      "video_id": "NI15V",
+      "description": "person holding a towel in the other hand.",
+      "gt_range": [
+        13.5,
+        19.5
+      ],
+      "pred_range": [
+        0,
+        30.6
+      ],
+      "iou": 0.19607843137254902,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 30.6]"
+    },
+    {
+      "video_id": "6HT0J",
+      "description": "person start reading a book.",
+      "gt_range": [
+        6.8,
+        19.5
+      ],
+      "pred_range": [
+        6.2,
+        12.5
+      ],
+      "iou": 0.42857142857142855,
+      "parse_method": "regex",
+      "raw_response": "[6.2, 12.5]"
+    },
+    {
+      "video_id": "BM3UJ",
+      "description": "a person walks through the entryway holding a glass.",
+      "gt_range": [
+        6.4,
+        17.3
+      ],
+      "pred_range": [
+        0,
+        6.6
+      ],
+      "iou": 0.011560693641618455,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 6.6]"
+    },
+    {
+      "video_id": "DM2XL",
+      "description": "person opens the front door.",
+      "gt_range": [
+        15.4,
+        20.9
+      ],
+      "pred_range": [
+        16.8,
+        22.457641279283497
+      ],
+      "iou": 0.5809306307526354,
+      "parse_method": "regex",
+      "raw_response": "[16.8, 22.5]"
+    },
+    {
+      "video_id": "RQRRD",
+      "description": "person quickly undressing.",
+      "gt_range": [
+        7.5,
+        24.3
+      ],
+      "pred_range": [
+        18.6,
+        37.3
+      ],
+      "iou": 0.19127516778523487,
+      "parse_method": "regex",
+      "raw_response": "[18.6, 37.3]"
+    },
+    {
+      "video_id": "S2FUO",
+      "description": "a person kneeling on the floor talks on a phone.",
+      "gt_range": [
+        0.0,
+        8.4
+      ],
+      "pred_range": [
+        0,
+        4.8
+      ],
+      "iou": 0.5714285714285715,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 4.8]"
+    },
+    {
+      "video_id": "36T5X",
+      "description": "person starts undressing out of their outdoor clothes.",
+      "gt_range": [
+        24.0,
+        34.0
+      ],
+      "pred_range": [
+        0,
+        33.1
+      ],
+      "iou": 0.26764705882352946,
+      "parse_method": "regex",
+      "raw_response": "[0.0, 33.1]"
+    }
+  ]
+}

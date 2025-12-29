@@ -1,1 +1,4 @@
-test_videos/*.MP4
+*.MP4
+*.avi
+*.mov
+datasets/

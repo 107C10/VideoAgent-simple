@@ -3,6 +3,11 @@
 测试 Milestone 2 的各项功能
 """
 import sys
+import os
+
+# 添加项目根目录到路径
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from langchain_core.messages import HumanMessage
 import milestone2
 
@@ -44,7 +49,7 @@ if __name__ == "__main__":
         test_task("找到视频中两个老太太的片段，以及主角鞠躬的片段", "Task4_MomentRetrieval")
     
     else:
-        print("用法: python test_tasks.py <task_number>")
+        print("用法: python test_milestone2.py <task_number>")
         print("  2 - 测试视频Captioning（时间范围）")
         print("  3 - 测试完整时间线")
         print("  4 - 测试Moment Retrieval")
